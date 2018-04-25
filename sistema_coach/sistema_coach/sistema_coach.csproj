@@ -6581,9 +6581,6 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="MasterPage.master.cs">
       <DependentUpon>MasterPage.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -6608,7 +6605,6 @@
   <ItemGroup>
     <Content Include="Lib\dist\css\adminlte.css.map" />
     <Content Include="Lib\dist\css\adminlte.min.css.map" />
-    <Content Include="MasterPage.master" />
     <Content Include="Lib\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="Lib\plugins\input-mask\phone-codes\phone-codes.json" />
     <Content Include="Lib\plugins\bootstrap-colorpicker\.bower.json" />
@@ -7093,6 +7089,7 @@
     <Content Include="Lib\plugins\select2\src\scss\_dropdown.scss" />
     <Content Include="Lib\plugins\select2\src\scss\_multiple.scss" />
     <Content Include="Lib\plugins\select2\src\scss\_single.scss" />
+    <Content Include="MasterPage.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
