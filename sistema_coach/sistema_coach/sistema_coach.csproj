@@ -6562,6 +6562,8 @@
     <Content Include="Lib\plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="Lib\plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="Lib\plugins\timepicker\bootstrap-timepicker.min.js" />
+    <Content Include="Sucursal.aspx" />
+    <Content Include="TipoMembresia.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -6577,6 +6579,12 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sucursal.aspx.cs">
+      <DependentUpon>Sucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TipoMembresia.aspx.cs">
+      <DependentUpon>TipoMembresia.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lib\dist\css\adminlte.css.map" />
